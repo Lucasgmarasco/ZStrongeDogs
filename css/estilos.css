@@ -1,0 +1,211 @@
+.header1 {
+  display: flex;
+  background-color: #f79503;
+  font-family: sans-serif; }
+
+.logotipo_principal {
+  width: 7%;
+  width: 90px;
+  height: 100px; }
+
+.logoyt {
+  display: flex;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  word-spacing: 1.4px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: overline solid #444444;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize; }
+
+.nav1 {
+  list-style: none;
+  padding: 0%;
+  background: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto; }
+
+.nav1 li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block; }
+
+.nav1 li {
+  display: inline-block;
+  text-align: center; }
+
+.nav-link a:hover {
+  background: #9a9a9a; }
+
+.nav-item a:hover {
+  background: #9a9a9a; }
+
+.titulo-nav {
+  text-align: center;
+  justify-content: center;
+  background-color: none; }
+
+h4 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: overline #e59c00;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: lowercase; }
+
+h2 {
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 5px 15px 5px rgba(255, 253, 8, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 5px 15px 5px rgba(255, 253, 8, 0); }
+
+span {
+  display: inline-block;
+  text-indent: -2rem;
+  position: relative; }
+
+h3 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: overline #e59c00;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: lowercase; }
+
+.carousel-control-prev {
+  margin-bottom: 60px; }
+
+p {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: lowercase;
+  box-shadow: #202c2d; }
+
+.titulo-nav {
+  text-align: center;
+  justify-content: center;
+  background-color: none; }
+
+.card-1 {
+  background-color: aqua;
+  justify-content: center; }
+
+.titulo_mapa {
+  text-align: center;
+  font-family: "Orbitron", sans-serif; }
+
+.mapa {
+  justify-content: space-around; }
+  .mapa p {
+    color: red;
+    font-family: "Orbitron", sans-serif;
+    justify-content: flex-end; }
+
+.titulo-ingre {
+  text-align: center;
+  margin: 40px 20px;
+  font-family: "Orbitron", sans-serif; }
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04); }
+
+.grid-container {
+  box-shadow: -1px 1px 7px 0px black;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  gap: 10px; }
+  .grid-container div .item1 {
+    width: 25%;
+    height: 35%; }
+  .grid-container div h2 {
+    font-family: "Orbitron", sans-serif; }
+  .grid-container div p {
+    color: red; }
+  .grid-container div .item2 {
+    width: 25%;
+    height: 35%;
+    background-color: bisque; }
+  .grid-container div .item3 {
+    border-radius: 2px;
+    width: 25%;
+    height: 35%;
+    background-color: blue; }
+  .grid-container div .item4 {
+    border-radius: 2px;
+    width: 25%;
+    height: 35%;
+    background-color: chocolate; }
+  .grid-container div .item5 {
+    border-radius: 2px;
+    width: 25%;
+    height: 35%;
+    background-color: darkcyan; }
+  .grid-container div .item6 {
+    border-radius: 2px;
+    width: 25%;
+    height: 35%;
+    background-color: darkolivegreen; }
+  .grid-container div img {
+    height: 300px;
+    border-radius: 15px; }
+
+.backgr {
+  background-image: url(../imagenes/backgr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.row {
+  justify-content: center; }
+
+.formulario {
+  background: black;
+  padding: 20px; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: #e59c00;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.social-icons-container, .footer-menu-conainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  color: white; }
+
+.btn-success {
+  background-color: #202c2d; }

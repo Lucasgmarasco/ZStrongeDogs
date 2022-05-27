@@ -1,0 +1,200 @@
+// variables
+$color-principal: rgb(229, 156, 0);
+$letra-principal: 'Orbitron', sans-serif;
+
+
+
+
+  
+
+.titulo-nav{
+text-align: center;
+justify-content: center;
+background-color: none;
+}
+
+h4{
+  font-family: Impact, Charcoal, sans-serif;
+font-size: 36px;
+letter-spacing: 0.2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: overline rgb(229, 156, 0);
+font-style: italic;
+font-variant: normal;
+text-transform: lowercase;
+}
+
+h2{
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 5px 15px 5px rgba(255,253,8,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 5px 15px 5px rgba(255,253,8,0);
+}
+
+
+span {
+  display: inline-block;
+  text-indent: -2rem;
+  position: relative;
+}
+
+
+h3{
+font-family: Impact, Charcoal, sans-serif;
+font-size: 22px;
+letter-spacing: 0.2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: overline rgb(229, 156, 0);
+font-style: italic;
+font-variant: normal;
+text-transform: lowercase;
+}
+  
+    
+
+  .carousel-control-prev{
+    margin-bottom: 60px;
+    
+  }
+  
+  p{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: lowercase;
+    box-shadow: #202c2d;
+  }
+  .titulo-nav{
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+    
+    
+    }
+    
+    
+  .card-1{
+    background-color: aqua;
+    justify-content: center;
+  }
+    
+  // main/sucrsales
+
+  .titulo_mapa{
+    text-align: center;
+   font-family: $letra-principal;
+  }
+  
+.mapa{
+ justify-content: space-around;
+  p{
+    color:rgb(255, 0, 0);
+    font-family: $letra-principal;
+    justify-content: flex-end;
+ 
+  }
+}
+
+//  main/ingredientes
+
+
+.titulo-ingre{text-align: center;
+  margin: 40px 20px;
+  font-family: $letra-principal;
+  
+
+}
+.grid-item:hover{
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-container{
+  box-shadow: -1px 1px 7px 0px rgb(0,0,0);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+
+    div{
+      .item1{
+        width:  25%;
+        height: 35%;
+        }
+
+        h2{
+          font-family:$letra-principal;
+        }
+
+        p{
+          color: red;
+        
+        }
+        
+          .item2{
+            width:  25%;
+            height: 35%;
+            background-color: bisque;
+          }
+
+          .item3{
+            border-radius: 2px;
+            width:  25%;
+            height: 35%;
+            background-color: blue;
+            }
+            .item4{
+              border-radius: 2px;
+              width:  25%;
+              height: 35%;
+              background-color: chocolate;
+              }
+              .item5{
+                border-radius: 2px;
+                width:  25%;
+              height: 35%;
+              background-color: darkcyan;
+              }
+              .item6{
+                border-radius: 2px;
+                width:  25%;
+              height: 35%;
+              background-color: darkolivegreen;
+              }
+              img{
+                height: 300px;
+                border-radius: 15px;
+                
+              }
+        
+    }
+  }
+  
+  .backgr{
+    background-image: url(../imagenes/backgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+  }
+
+  .row{
+    justify-content: center;
+    
+  }
+
+.formulario{
+  background: black ;
+  padding: 20px;
+}

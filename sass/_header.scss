@@ -1,0 +1,57 @@
+.header1 {
+    display: flex;
+    background-color: rgb(247, 149, 3);
+    font-family: sans-serif;
+ }
+
+  .logotipo_principal{width:7%;
+    width: 90px;
+    height: 100px;
+    
+  
+ }
+
+ .logoyt{
+     display: flex;
+    
+        font-family: Impact, Charcoal, sans-serif;
+        font-size: 24px;
+        letter-spacing: 2.4px;
+        word-spacing: 1.4px;
+        color: #000000;
+        font-weight: 400;
+        text-decoration: overline solid rgb(68, 68, 68);
+        font-style: italic;
+        font-variant: small-caps;
+        text-transform: capitalize;
+     
+ }
+
+ .nav1{
+  list-style:none ;
+  padding: 0%;
+  background: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.nav1 li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.nav1 li{
+    display: inline-block;
+    text-align: center;
+
+}
+.nav-link a:hover{
+    background: #9a9a9a;
+}
+
+.nav-item a:hover{
+    background: #9a9a9a;
+}

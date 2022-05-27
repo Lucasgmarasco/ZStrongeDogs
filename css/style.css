@@ -1,0 +1,274 @@
+*{                                                               
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box ;
+} 
+
+
+
+header {
+  display: flex;
+  background-color: rgb(247, 149, 3);
+  flex-direction: row;
+  justify-content:  space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.logotipo_principal{width:7%;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+
+}
+
+nav{
+  width:70%;
+  margin right: 30px;
+}
+.ul_nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-end;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;  
+  font-style: none;
+  
+
+}
+
+
+.nav_skin :hover  {
+  color: rgb(255, 244, 221);
+}
+
+                                                        /*MAIN*/
+                                                        
+
+
+.titulo_principal{
+  align-items: center;
+  margin: 20px;
+  color: rgb(229, 156, 0);
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.subtitulo_principal{
+align-items: center;
+margin: 20px;
+color: rgb(229, 156, 0);
+font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+}
+.tarcertitulo_principal{
+  align-items: center;
+  margin: 20px;
+  color:rgb(229, 156, 0);
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.fondo_principal{
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(./imagenes/Border-collie-dog-walking-grass_1920x1080.jpg);
+}
+.imagenes_principal{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.texto-ingredientes_principal{
+  display: flex;
+  margin: 0% 20px;
+  align-items: center;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.texto-alimentos_principal{
+  display: flex;
+  margin: 0% 20px;
+  align-items: center;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+
+}
+.texto-receta_principal{
+  display: flex;
+  margin: 0% 20px;
+  align-items: center;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.titulo-para-texto_principal{
+  text-align: center;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.mapa{
+  display: flex;
+  margin: 0% 20px;
+  align-items: center;
+  font-family: 'Merienda', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.titulo_mapa{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.titulo-ingre{text-align: center;
+  margin: 40px 20px;
+  font-style: italic;
+  
+
+}
+
+
+
+.grid-item:hover{
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+.grid-container{
+box-shadow: -1px 1px 7px 0px rgb(0,0,0);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  gap: 10px;
+}
+
+.item1{
+width:  25%;
+height: 35%;
+background-color: antiquewhite;
+
+}
+.item2{
+  width:  25%;
+  height: 35%;
+  background-color: bisque;
+}
+
+  
+.item3{
+border-radius: 2px;
+width:  25%;
+height: 35%;
+background-color: blue;
+}
+.item4{
+border-radius: 2px;
+width:  25%;
+height: 35%;
+background-color: chocolate;
+}
+
+.item5{
+  border-radius: 2px;
+  width:  25%;
+height: 35%;
+background-color: darkcyan;
+}
+.item6{
+  border-radius: 2px;
+  width:  25%;
+height: 35%;
+background-color: darkolivegreen;
+}
+.grid_ingre{
+  width: 100%;
+  height: 100%;
+  background-color: darkslategray;
+}
+
+  
+
+.titulo1_grid-ingre{
+  position: absolute;
+  background-color: rgb(0,0,0,0.4);
+  color: aliceblue;
+  font-style: italic;
+}
+.parrafo-grid{
+  text-align: center;
+  margin: 80px 50px;
+}
+.main-ingre{
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+}
+
+.container-como{
+font-family: sans-serif;
+font-size: 1.2rem;
+box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
+text-align: center;
+}
+.container-como{
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "sidebar"
+  "main-como"
+  "footer-como"
+  
+  ;
+}
+
+.sidebar{
+  grid-area: sidebar;
+  background-color: antiquewhite;
+}
+.main-como{
+  grid-area: main-como;
+  background-color: blueviolet;
+}
+
+.footer-como{
+  grid-area: footer-como;
+  background-color: darkcyan;
+}
+@media (min-width:600px) {
+  .grid-container{
+      grid-template-areas: 
+   "sidebar sidebar  "
+  "main-como  sidebar "
+  "footer-como footer-como  "
+    ;
+  
+  
+  }
+}
+
+
+.titulo-como{
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+  color: white;
+}
+.container2-como{
+  box-shadow: -1px 1px 7px 0px rgb(0,0,0);
+  border-radius: 4px;
+  padding: 3px;
+  display: grid;
+  gap: 3px;
+}
+.backgraund¨{
+  background-color: rgb(0, 0, 0);
+}

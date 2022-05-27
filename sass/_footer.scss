@@ -1,0 +1,35 @@
+
+// variables
+$color-principal: rgb(229, 156, 0);
+$letra-principal: 'Orbitron', sans-serif;
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%; 
+    background-color: $color-principal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .social-icons-container, .footer-menu-conainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+      color: white;
+  }
+
+  
+ .btn-success{
+     background-color: #202c2d;
+ }
