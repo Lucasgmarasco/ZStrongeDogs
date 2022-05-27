@@ -197,4 +197,19 @@ text-transform: lowercase;
 .formulario{
   background: black ;
   padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0,0,30px rgb(0,0,0);
+  color: white;
+}
+
+.ingresar{
+  background-color: #202c2d;
+  padding:10px ;
+  font-size: 16px;
+  color: white;
+  font-weight: 700!important;  
+}
+.botons{
+  text-align: center;
+ 
 }

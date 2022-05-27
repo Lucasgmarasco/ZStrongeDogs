@@ -182,7 +182,20 @@ p {
 
 .formulario {
   background: black;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0, 0, 30px black;
+  color: white; }
+
+.ingresar {
+  background-color: #202c2d;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700 !important; }
+
+.botons {
+  text-align: center; }
 
 body {
   height: 100vh;
