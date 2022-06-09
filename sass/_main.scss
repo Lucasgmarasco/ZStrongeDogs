@@ -134,6 +134,7 @@ text-transform: lowercase;
 
         h2{
           font-family:$letra-principal;
+          
         }
 
         p{
@@ -220,4 +221,31 @@ a:hover
   text-align: center;
   margin-top: 60px;
   border-radius: 20px;
+}
+
+
+.tit_sucursales{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card-footer{
+  text-align: center;
+}
+.card-body{
+  text-align: center;
+ 
+}
+
+.contactanos{
+  color: aliceblue;
+  text-align: center;
+  min-width: 400px;
+}
+.container-fluid{
+  color: azure;
+}
+
+.btn btn-primary{
+  text-align: center;
 }
